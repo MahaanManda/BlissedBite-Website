@@ -1,0 +1,268 @@
+body {
+  background-color: bisque;
+}
+
+p {
+  font-size: larger;
+}
+
+
+/*top of page box */
+#rainbowBox { 
+  font-family: cursive;
+  text-align: center;
+  width: 1380px;
+  height: 17px;
+  padding: 20px;
+  border: 10px solid transparent;
+  position: relative;
+  overflow: hidden;
+  background-color: #FCF4CD;
+  margin-left: -8px;
+  margin-top: -45px;
+  
+  
+}
+
+.second-page-title {
+  text-align: center;
+  font-family: cursive;
+  
+}
+
+.cookie-image {
+  width: 300px;
+  height: 300px;
+}
+
+.cookie-title,
+.cookie-title-one {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  text-align: center;
+  margin: 10px auto; /* Adjust top and bottom margins */
+}
+
+.cookie-title-one {
+  margin-left: 350px;
+}
+
+.cookie-container {
+  display: inline-block;
+  margin-right: 100px;
+  text-align: center; /* Center text within container */
+  vertical-align: top; /* Align containers from the top */
+}
+
+#FirstCookieColumn {
+  margin-left: 350px;
+}
+
+.cookie-price-tag,
+.cookie-price-tag-one {
+  text-align: center;
+  margin-top: 5px; /* Add space between title and price */
+  color: rgb(235, 126, 148); /* Adjust color as needed */
+  
+}
+
+.cookie-price-tag-one {
+  margin-left: 350px;
+}
+
+.second-page {
+  margin-top: 660px;
+}
+
+.solid-line {
+  position: absolute;
+  top: 750px; /* Adjust the vertical position as needed */
+  left: 0;
+  right: 0;
+  border: 5px solid #e0218a;
+}
+
+/* Hide all slides by default */
+.mySlides {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
+/* Show the active slide */
+.mySlides.active {
+  opacity: 1;
+}
+
+/* Set image dimensions */
+.slide-image {
+  margin-top: -76.7px;
+  margin-left: -9px;
+  width: 1442px;
+  height: 719px;
+  position: absolute;
+}
+
+.solid-line2 {
+  position: absolute;
+  top: 1350px; /* Adjust the vertical position as needed */
+  left: 0;
+  right: 0;
+  border: 5px solid #e0218a;
+}
+
+.buy-now-button{
+  position: absolute;
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 2px;
+  
+  display: inline-block;
+  padding: 4px 4px; /* Adjust padding to create the box effect */
+  background-color: blue; /* Set the background color */
+  color: white; /* Set text color */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+
+
+}
+
+.buy-now-button-one{
+  position: absolute;
+  text-align: center;
+  margin-left: -45px;
+  margin-top: 1px;
+
+  display: inline-block;
+  padding: 4px 4px; /* Adjust padding to create the box effect */
+  background-color: blue; /* Set the background color */
+  color: white; /* Set text color */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
+.buy-now-button:hover,
+.buy-now-button-one:hover {
+  background-color: darkblue; /* Change color on hover */
+}
+
+.Title-Slideshow{
+  position: absolute;
+  font-size: 70px;
+  margin-left: 525px;
+  margin-top: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 0;
+  
+}
+
+.Title-Slideshow-Box{
+  position: absolute;
+  border: 2px solid black; /* Add a 2px black border */
+  padding: 10px; /* Add padding for space inside the border */
+  width: 393px;
+  height: 90px;
+  margin-top: 125px;
+  margin-left: 510px;
+  background-color: tan;
+  border-radius: 15px; /* Adjust the value to change the roundness */
+  opacity: 0;
+}
+
+.Slogan-Slideshow{
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 250px;
+  margin-left: 570px;
+  font-family: cursive;
+  font-weight: bold;
+  
+}
+
+.solid-line3 {
+  border: 1px solid white;
+  margin-top: -26px; /* Adjust to move the line closer */
+}
+
+.slogan-wrapper hr {
+  width: 0;
+  border: none;
+  border-top: 1px solid white; /* Set line properties */
+  transition: width 1s ease-in-out; /* Transition for extending the line */
+}
+
+.slogan-text {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-in-out; /* Fade-in transition */
+}
+
+.third-page-title{
+  margin-top: 100px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.third-page-description{
+  font-family: fantasy;
+      line-height: 3;
+      text-align: left;
+      font-size: 20px;
+      text-align: center;
+      border: 2px solid #000; /* Add a black border (you can change the color) */
+      padding: 20px; /* Add padding inside the border */
+      max-width: 1100px; /* Set a maximum width for the box */
+      margin: 0 auto; /* Center the box horizontally */
+      background-color: pink;
+      border-radius: 100px;
+  
+}
+
+.third-page{
+  margin-bottom: 250px;
+}
+
+.gif-second-page{
+  position: absolute;
+  margin-left: 1135px;
+  margin-top: 250px
+}
+
+.gif-second-page2{
+  position: absolute;
+  margin-left: -120px;
+  margin-top: -5px
+}
+
+.third-page-gif{
+  position: absolute;
+  margin-left: 58px;
+  
+}
+
+.third-page-gif-2{
+  position: absolute;
+  margin-left: 1284px;
+}
+
+.stripe-kissed{
+  position: absolute;
+  margin-top: -1210px;
+  margin-left: 350px;
+}
+
+.stripe-chocolate{
+  position: absolute;
+  margin-top: -1210px;
+  margin-left: 750px;
+}
+
+.stripe-kissed,
+.stripe-chocolate {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
