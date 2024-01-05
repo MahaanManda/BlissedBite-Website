@@ -21,7 +21,15 @@ p {
   margin-left: -8px;
   margin-top: -45px;
   
-  
+}
+
+.raibowBoxTitle{
+  position: absolute;
+  font-family: cursive;
+  text-align: center;
+  margin-top: -65px;
+  margin-left: 655px;
+  font-size: 30px;
 }
 
 .second-page-title {
@@ -267,9 +275,35 @@ p {
     transform: scale(1.2); /* Adjust the scaling factor as needed */
 }
 
+
 /* For mobile devices */
 @media only screen and (max-width: 600px) {
   /* Adjust the styles here for smaller screens */
+
+  .raibowBoxTitle{
+    position: absolute;
+    font-family: cursive;
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 35%;
+    font-size: 30px;
+  }
+
+  #rainbowBox { 
+    font-family: cursive;
+    text-align: center;
+    width: 106.5%;
+    height: 17px;
+    padding: 20px;
+    border: 10px solid transparent;
+    position: relative;
+    overflow: hidden;
+    background-color: #FCF4CD;
+    margin-left: -20%;
+    margin-top: -45px;
+    
+  }
+
   .slide-image {
     position: relative;
     width: 100%; /* Adjust the percentage based on your layout */
