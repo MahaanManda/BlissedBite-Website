@@ -266,3 +266,50 @@ p {
 .stripe-chocolate {
     transform: scale(1.2); /* Adjust the scaling factor as needed */
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust the styles here for smaller screens */
+  .slide-image {
+    position: relative;
+    width: 100%; /* Adjust the percentage based on your layout */
+    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+  }
+
+  .Title-Slideshow-Box {
+    position: relative;
+    margin-left: 28%; /* Adjust the percentage */
+    width: 40%; /* Adjust the percentage */
+    height: 2%; /* Adjust the percentage */
+    margin-top: -5%; /* Adjust the percentage */
+  }
+
+  .Title-Slideshow {
+    position: relative;
+    margin-left: 38%; /* Adjust the percentage */
+    margin-top: -11.5%; /* Adjust the percentage */
+    font-size: 108%; /* Adjust the percentage */
+  }
+
+  .Slogan-Slideshow {
+    position: relative; /* Change positioning for better display on mobile */
+    text-align: center;
+    font-size: 11px; /* Adjust font size for readability on smaller screens */
+    margin-top: -15px; /* Modify the top margin */
+    margin-left: auto; /* Center horizontally by setting margin-left to auto */
+    margin-right: auto; /* Center horizontally by setting margin-right to auto */
+    font-family: cursive;
+    font-weight: bold;
+    max-width: 80%; /* Set a maximum width for the element */
+  }
+  
+  .slogan-wrapper hr {
+    position: absolute;
+    width: -1000%; /* Adjust the percentage based on your layout */
+    border-top: 0.5px solid white; /* Modify border properties as needed */
+    margin: 0 auto; /* Center the line horizontally */
+    transition: width 0.5s ease-in-out; /* Adjust transition properties */
+    margin-top: -5%;
+  }
+
+}
