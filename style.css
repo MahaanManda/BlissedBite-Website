@@ -274,57 +274,58 @@ p {
     position: absolute;
     font-family: cursive;
     text-align: center;
-    margin-top: -65px;
+    margin-top: -16%;
     margin-left: 35%;
-    font-size: 30px;
+    font-size: 200%;
   }
 
   #rainbowBox { 
     font-family: cursive;
     text-align: center;
-    width: 109%;
-    height: 17px;
-    padding: 20px;
-    border: 10px solid transparent;
+    width: 105%;
+    height: auto;
+    padding: 7%;
+    border: 100% solid transparent;
     position: relative;
     overflow: hidden;
     background-color: #FCF4CD;
     margin-left: -20%;
-    margin-top: -45px;
+    margin-top: -10%;
     
   }
 
   
 
   .slide-image {
-    margin-top: -76.7px;
-    margin-left: -9px;
-    width: 102%;
-    height: 650px;
     position: absolute;
+    margin-top: -19%;
+    margin-left: -2%;
+    width: 102%;
+    height: -1%;
+    
   }
 
   .Title-Slideshow-Box {
-    position: relative;
-    margin-left: 28%; /* Adjust the percentage */
+    position: absolute;
+    margin-left: 27%; /* Adjust the percentage */
     width: 40%; /* Adjust the percentage */
-    height: 20px; /* Adjust the percentage */
+    height: 4%; /* Adjust the percentage */
     margin-top: 25%; /* Adjust the percentage */
   }
 
   .Title-Slideshow {
-    position: relative;
-    margin-left: 30%; /* Adjust the percentage */
-    margin-top: -20%; /* Adjust the percentage */
-    font-size: 30px; /* Adjust the percentage */
+    position: absolute;
+    margin-left: 29.5%; /* Adjust the percentage */
+    margin-top: 18%; /* Adjust the percentage */
+    font-size: 190%; /* Adjust the percentage */
   }
 
   .Slogan-Slideshow {
     position: relative; /* Change positioning for better display on mobile */
     text-align: center;
-    font-size: 16px; /* Adjust font size for readability on smaller screens */
-    margin-top: -15px; /* Modify the top margin */
-    margin-left: auto; /* Center horizontally by setting margin-left to auto */
+    font-size: 100%; /* Adjust font size for readability on smaller screens */
+    margin-top: 45%; /* Modify the top margin */
+    margin-left: 12.5%; /* Center horizontally by setting margin-left to auto */
     margin-right: auto; /* Center horizontally by setting margin-right to auto */
     font-family: cursive;
     font-weight: bold;
@@ -344,16 +345,16 @@ p {
     text-align: center;
     font-family: cursive;
     font-size: 150%;
-    margin-top: -65%;
+    margin-top: -50%;
     
   }
 
   .solid-line{
     position: absolute;
-    top: 76%; /* Adjust the vertical position as needed */
+    top: 84%; /* Adjust the vertical position as needed */
     left: 0;
-    right: -8px;
-    border: 5px solid #e0218a;
+    right: -2%;
+    border: 5% solid #e0218a;
   }
 
   .stripe-kissed{
@@ -372,8 +373,8 @@ p {
     position: absolute;
     top: 214%; /* Adjust the vertical position as needed */
     left: 0;
-    right: -8px;
-    border: 5px solid #e0218a;
+    right: -2%;
+    border: 5% solid #e0218a;
   }
 
   .third-page-description{
@@ -381,15 +382,15 @@ p {
     font-family: fantasy;
     line-height: 2;
     text-align: left;
-    font-size: 12px;
+    font-size: 100%;
     text-align: center;
-    border: 2px solid #000; /* Add a black border (you can change the color) */
-    padding: 20px; /* Add padding inside the border */
-    max-width: 1100px; /* Set a maximum width for the box */
+    border: 2% solid #000; /* Add a black border (you can change the color) */
+    padding: 5%; /* Add padding inside the border */
+    max-width: 100%; /* Set a maximum width for the box */
     margin: 0 auto; /* Center the box horizontally */
     background-color: pink;
-    border-radius: 60px;
-    margin-top: 190%;
+    border-radius: 16%;
+    margin-top: 165%;
     margin-left: -2%;
   }
 
@@ -398,7 +399,7 @@ p {
     text-align: center;
     font-family: cursive;
     font-size: 150%;
-    margin-top: 170%;
+    margin-top: 150%;
     margin-left: 28%;
   }
 
@@ -415,6 +416,6 @@ p {
     margin-top: 250%;
   }
 
-  
+
 }
 
