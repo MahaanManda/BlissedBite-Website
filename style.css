@@ -1,421 +1,130 @@
-body {
-  background-color: bisque;
+/* Container styling */
+.background-color{
+    background-color: bisque;
+}
+.message-container {
+    z-index: 999;
+    position: absolute;
+    top: 2%;
+    left: 50%; /* Adjust this value to extend the box towards the left */
+    transform: translate(-50%, -50%);
+    border: 2px #000000;
+    
+    background-color: tan;
+    width: 100%; /* Adjust the width of the box */
+    box-sizing: border-box; /* Include padding and border in the width */
+    
 }
 
-p {
-  font-size: larger;
+/* Message styling */
+.Welcome-Message {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #000000;
+    text-align: center;
+    margin: 0;
 }
 
-
-/*top of page box */
-#rainbowBox { 
-  font-family: cursive;
-  text-align: center;
-  width: 1388px;
-  height: 17px;
-  padding: 20px;
-  border: 10px solid transparent;
-  position: relative;
-  overflow: hidden;
-  background-color: #FCF4CD;
-  margin-left: -8px;
-  margin-top: -45px;
-  
-}
-
-.raibowBoxTitle{
-  position: absolute;
-  font-family: cursive;
-  text-align: center;
-  margin-top: -65px;
-  margin-left: 655px;
-  font-size: 30px;
-}
-
-.second-page-title {
-  text-align: center;
-  font-family: cursive;
-  
-}
-
-.cookie-image {
-  width: 300px;
-  height: 300px;
-}
-
-.cookie-title,
-.cookie-title-one {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: large;
-  text-align: center;
-  margin: 10px auto; /* Adjust top and bottom margins */
-}
-
-.cookie-title-one {
-  margin-left: 350px;
-}
-
-.cookie-container {
-  display: inline-block;
-  margin-right: 100px;
-  text-align: center; /* Center text within container */
-  vertical-align: top; /* Align containers from the top */
-}
-
-#FirstCookieColumn {
-  margin-left: 350px;
-}
-
-.cookie-price-tag,
-.cookie-price-tag-one {
-  text-align: center;
-  margin-top: 5px; /* Add space between title and price */
-  color: rgb(235, 126, 148); /* Adjust color as needed */
-  
-}
-
-.cookie-price-tag-one {
-  margin-left: 350px;
-}
-
-.second-page {
-  margin-top: 660px;
-  
+.image{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px #000000;
+    width: 100%; /* Adjust the width of the box */
+    height: auto;
+    box-sizing: border-box; /* Include padding and border in the width */
 }
 
 .solid-line {
-  position: absolute;
-  top: 750px; /* Adjust the vertical position as needed */
-  left: 0;
-  right: -8px;
-  border: 5px solid #e0218a;
-}
-
-/* Hide all slides by default */
-.mySlides {
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  height: auto;
-  transition: opacity 1s ease-in-out; /* Smooth transition */
-}
-
-/* Show the active slide */
-.mySlides.active {
-  opacity: 1;
-}
-
-/* Set image dimensions */
-.slide-image {
-  margin-top: -76.7px;
-  margin-left: -9px;
-  width: 1449px;
-  height: 719px;
-  position: absolute;
-}
+    position: absolute;
+    top: 28%; /* Adjust the vertical position as needed */
+    left: 0%;
+    right: 0%;
+    border: 5px solid #e0218a;
+  }
 
 .solid-line2 {
-  position: absolute;
-  top: 1350px; /* Adjust the vertical position as needed */
-  left: 0;
-  right: -8px;
-  border: 5px solid #e0218a;
-}
-
-.buy-now-button{
-  position: absolute;
-  text-align: center;
-  margin-left: 130px;
-  margin-top: 2px;
-  
-  display: inline-block;
-  padding: 4px 4px; /* Adjust padding to create the box effect */
-  background-color: blue; /* Set the background color */
-  color: white; /* Set text color */
-  border-radius: 10px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition */
-
-
-}
-
-.buy-now-button-one{
-  position: absolute;
-  text-align: center;
-  margin-left: -45px;
-  margin-top: 1px;
-
-  display: inline-block;
-  padding: 4px 4px; /* Adjust padding to create the box effect */
-  background-color: blue; /* Set the background color */
-  color: white; /* Set text color */
-  border-radius: 10px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-
-.buy-now-button:hover,
-.buy-now-button-one:hover {
-  background-color: darkblue; /* Change color on hover */
-}
-
-.Title-Slideshow{
-  position: absolute;
-  font-size: 70px;
-  margin-left: 525px;
-  margin-top: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  opacity: 0;
-  
-}
-
-.Title-Slideshow-Box{
-  position: absolute;
-  border: 2px solid black; /* Add a 2px black border */
-  padding: 10px; /* Add padding for space inside the border */
-  width: 393px;
-  height: 90px;
-  margin-top: 125px;
-  margin-left: 510px;
-  background-color: tan;
-  border-radius: 15px; /* Adjust the value to change the roundness */
-  opacity: 0;
-}
-
-.Slogan-Slideshow{
-  position: absolute;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 250px;
-  margin-left: 570px;
-  font-family: cursive;
-  font-weight: bold;
-  
-}
-
-.solid-line3 {
-  border: 1px solid white;
-  margin-top: -26px; /* Adjust to move the line closer */
-}
-
-.slogan-wrapper hr {
-  width: 0;
-  border: none;
-  border-top: 1px solid white; /* Set line properties */
-  transition: width 1s ease-in-out; /* Transition for extending the line */
-}
-
-.slogan-text {
-  opacity: 0; /* Initially hidden */
-  transition: opacity 1s ease-in-out; /* Fade-in transition */
-}
-
-.third-page-title{
-  margin-top: 100px;
-  text-align: center;
-  font-family: cursive;
-}
-
-.third-page-description{
-  font-family: fantasy;
-      line-height: 3;
-      text-align: left;
-      font-size: 20px;
-      text-align: center;
-      border: 2px solid #000; /* Add a black border (you can change the color) */
-      padding: 20px; /* Add padding inside the border */
-      max-width: 1100px; /* Set a maximum width for the box */
-      margin: 0 auto; /* Center the box horizontally */
-      background-color: pink;
-      border-radius: 100px;
-  
-}
-
-.third-page{
-  margin-bottom: 250px;
-}
-
-
-.third-page-gif{
-  position: absolute;
-  margin-left: 58px;
-  
-}
-
-.third-page-gif-2{
-  position: absolute;
-  margin-left: 1284px;
-}
-
-.stripe-kissed{
-  position: absolute;
-  margin-top: -1210px;
-  margin-left: 350px;
-}
-
-.stripe-chocolate{
-  position: absolute;
-  margin-top: -1210px;
-  margin-left: 750px;
-}
-
-.stripe-kissed,
-.stripe-chocolate {
-    transform: scale(1.2); /* Adjust the scaling factor as needed */
-}
-
-
-/* For mobile devices */
-@media only screen and (max-width: 600px) {
-  /* Adjust the styles here for smaller screens */
-
-  .raibowBoxTitle{
+    z-index: 999;
     position: absolute;
-    font-family: cursive;
-    text-align: center;
-    margin-top: -16%;
-    margin-left: 35%;
-    font-size: 200%;
+    top: 160%; /* Adjust the vertical position as needed */
+    left: 0%;
+    right: 0%;
+    border: 5px solid #e0218a;
   }
-
-  #rainbowBox { 
-    font-family: cursive;
-    text-align: center;
-    width: 105%;
-    height: auto;
-    padding: 7%;
-    border: 100% solid transparent;
-    position: relative;
-    overflow: hidden;
-    background-color: #FCF4CD;
-    margin-left: -20%;
-    margin-top: -10%;
-    
-  }
-
-  
-
-  .slide-image {
-    position: absolute;
-    margin-top: -19%;
-    margin-left: -2%;
-    width: 102%;
-    height: -1%;
-    
-  }
-
-  .Title-Slideshow-Box {
-    position: absolute;
-    margin-left: 27%; /* Adjust the percentage */
-    width: 40%; /* Adjust the percentage */
-    height: 4%; /* Adjust the percentage */
-    margin-top: 25%; /* Adjust the percentage */
-  }
-
-  .Title-Slideshow {
-    position: absolute;
-    margin-left: 29.5%; /* Adjust the percentage */
-    margin-top: 18%; /* Adjust the percentage */
-    font-size: 190%; /* Adjust the percentage */
-  }
-
-  .Slogan-Slideshow {
-    position: relative; /* Change positioning for better display on mobile */
-    text-align: center;
-    font-size: 100%; /* Adjust font size for readability on smaller screens */
-    margin-top: 45%; /* Modify the top margin */
-    margin-left: 12.5%; /* Center horizontally by setting margin-left to auto */
-    margin-right: auto; /* Center horizontally by setting margin-right to auto */
-    font-family: cursive;
-    font-weight: bold;
-    max-width: 80%; /* Set a maximum width for the element */
-  }
-  
-  .slogan-wrapper hr {
-    position: absolute;
-    width: -1000%; /* Adjust the percentage based on your layout */
-    border-top: 0.5px solid white; /* Modify border properties as needed */
-    margin: 0 auto; /* Center the line horizontally */
-    transition: width 0.5s ease-in-out; /* Adjust transition properties */
-    margin-top: -5%;
-  }
-
   .second-page-title {
-    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: cursive;
-    font-size: 150%;
-    margin-top: -50%;
-    
-  }
-
-  .solid-line{
-    position: absolute;
-    top: 84%; /* Adjust the vertical position as needed */
-    left: 0;
-    right: -2%;
-    border: 5% solid #e0218a;
-  }
-
-  .stripe-kissed{
-    position: absolute;
-    margin-top: -150%;
-    margin-left: 15%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
   }
 
   .stripe-chocolate{
+
     position: absolute;
-    margin-top: -15%;
-    margin-left: 14%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
   }
 
-  .solid-line2{
+  .stripe-kissed{
+
     position: absolute;
-    top: 214%; /* Adjust the vertical position as needed */
-    left: 0;
-    right: -2%;
-    border: 5% solid #e0218a;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+
+
+  .third-page-title{
+    top: 170%;
+    left: 23%;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
   }
 
   .third-page-description{
-    position: absolute;
     font-family: fantasy;
-    line-height: 2;
-    text-align: left;
-    font-size: 100%;
-    text-align: center;
-    border: 2% solid #000; /* Add a black border (you can change the color) */
-    padding: 5%; /* Add padding inside the border */
-    max-width: 100%; /* Set a maximum width for the box */
-    margin: 0 auto; /* Center the box horizontally */
-    background-color: pink;
-    border-radius: 16%;
-    margin-top: 165%;
-    margin-left: -2%;
-  }
-
-  .third-page-title{
-    position: absolute;
-    text-align: center;
-    font-family: cursive;
-    font-size: 150%;
-    margin-top: 150%;
-    margin-left: 28%;
+        line-height: 3;
+        text-align: left;
+        font-size: 20px;
+        text-align: center;
+        border: 2px solid #000; /* Add a black border (you can change the color) */
+        padding: 10%; /* Add padding inside the border */
+        max-width: 100%; /* Set a maximum width for the box */
+        margin: 0 auto; /* Center the box horizontally */
+        background-color: pink;
+        border-radius: 100px;
+        position: absolute;
+        top: 185%;
   }
 
   .third-page-gif{
     position: absolute;
-    margin-left: 0%;
-    margin-top: 250%;
+    left: 0%;
+    top: 162%;
+    
   }
-
   
   .third-page-gif-2{
     position: absolute;
-    margin-left: 80%;
-    margin-top: 250%;
+    left: 78%;
+    top: 162%;
   }
 
-
-}
-
+  
