@@ -1,17 +1,17 @@
-/* Container styling */
+
 .background-color{
     background-color: bisque;
 }
 .message-container {
     z-index: 999;
     position: absolute;
-    top: 2%;
+    top: 1.5%;
     left: 50%; /* Adjust this value to extend the box towards the left */
     transform: translate(-50%, -50%);
     border: 2px #000000;
     
     background-color: tan;
-    width: 100%; /* Adjust the width of the box */
+    width: 110%; /* Adjust the width of the box */
     box-sizing: border-box; /* Include padding and border in the width */
     
 }
@@ -24,35 +24,48 @@
     color: #000000;
     text-align: center;
     margin: 0;
+    
 }
 
 .image{
     position: absolute;
-    top: 16%;
+    top: 13.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px #000000;
-    width: 100%; /* Adjust the width of the box */
+    width: 110%; /* Adjust the width of the box */
     height: auto;
     box-sizing: border-box; /* Include padding and border in the width */
 }
 
+.Image-Title{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
 .solid-line {
     position: absolute;
-    top: 28%; /* Adjust the vertical position as needed */
+    top: 26%; /* Adjust the vertical position as needed */
     left: 0%;
-    right: 0%;
+    right: -5%;
     border: 5px solid #e0218a;
   }
 
 .solid-line2 {
     z-index: 999;
     position: absolute;
-    top: 160%; /* Adjust the vertical position as needed */
+    top: 165%; /* Adjust the vertical position as needed */
     left: 0%;
-    right: 0%;
+    right: -5%;
     border: 5px solid #e0218a;
   }
+
   .second-page-title {
     position: absolute;
     top: 40%;
@@ -67,7 +80,7 @@
   .stripe-chocolate{
 
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: cursive;
@@ -92,7 +105,7 @@
 
   .third-page-title{
     top: 170%;
-    left: 23%;
+    left: 18%;
     text-align: center;
     font-family: cursive;
     position: absolute;
@@ -101,7 +114,6 @@
   .third-page-description{
     font-family: fantasy;
         line-height: 3;
-        text-align: left;
         font-size: 20px;
         text-align: center;
         border: 2px solid #000; /* Add a black border (you can change the color) */
@@ -112,19 +124,128 @@
         border-radius: 100px;
         position: absolute;
         top: 185%;
-  }
-
-  .third-page-gif{
-    position: absolute;
-    left: 0%;
-    top: 162%;
-    
-  }
-  
-  .third-page-gif-2{
-    position: absolute;
-    left: 78%;
-    top: 162%;
+        right: -1%;
+        left: 4%;
   }
 
   
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+    .solid-line {
+        top: 26%;
+      }
+    .image{
+        width: 110%; /* Adjust the width of the box */
+        height: 28%;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 444px) {
+  .solid-line {
+      top: 36%;
+    }
+    .image{
+      top: 20%;
+      width: 110%; /* Adjust the width of the box */
+      height: 35%;
+  }
+
+  .second-page-title{
+    top: 50%;
+  }
+
+  .stripe-chocolate{
+    top: 90%;
+  }
+
+  .stripe-kissed{
+    top: 150%;
+  }
+
+  .solid-line2 {
+    top: 180%;
+  }
+
+  .third-page-title{
+    top: 186%;
+  }
+
+  .third-page-description{
+    top: 205%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 445px) and (max-width: 479px) {
+  .solid-line {
+      top: 35%;
+    }
+  .image{
+      width: 110%; /* Adjust the width of the box */
+      height: 33%;
+      top: 20%;
+  }
+
+  .second-page-title{
+    top: 50%;
+  }
+
+  .stripe-chocolate{
+    top: 90%;
+  }
+
+  .stripe-kissed{
+    top: 150%;
+  }
+
+  .solid-line2 {
+    top: 180%;
+  }
+
+  .third-page-title{
+    top: 186%;
+  }
+
+  .third-page-description{
+    top: 205%;
+  }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  .solid-line {
+      top: 40%;
+    }
+  .image{
+      width: 110%; /* Adjust the width of the box */
+      height: 39%;
+      top: 23%;
+  }
+
+  .second-page-title{
+    top: 56%;
+  }
+
+  .stripe-chocolate{
+    top: 100%;
+  }
+
+  .stripe-kissed{
+    top: 160%;
+  }
+
+  .solid-line2 {
+    top: 190%;
+  }
+
+  .third-page-title{
+    top: 194%;
+    left: 30%;
+  }
+
+  .third-page-description{
+    top: 210%;
+  }
+}
