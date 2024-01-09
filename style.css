@@ -249,3 +249,362 @@
     top: 210%;
   }
 }
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 675px) {
+
+  .Image-Title{
+    top: 25%;
+  }
+
+  .solid-line {
+      top: 50%;
+    }
+  .image{
+      width: 110%; /* Adjust the width of the box */
+      height: 50%;
+      top: 27%;
+  }
+
+  .second-page-title{
+    top: 60%;
+  }
+
+  .stripe-chocolate{
+    top: 100%;
+  }
+
+  .stripe-kissed{
+    top: 160%;
+  }
+
+  .solid-line2 {
+    top: 190%;
+  }
+
+  .third-page-title{
+    top: 194%;
+    left: 30%;
+  }
+
+  .third-page-description{
+    top: 210%;
+  }
+}
+
+
+@media only screen and (min-width: 676px) and (max-width: 859px) {
+
+  .Image-Title{
+    top: 25%;
+  }
+
+  .solid-line {
+      top: 60%;
+    }
+  .image{
+      width: 110%; /* Adjust the width of the box */
+      height: 70%;
+      top: 27%;
+  }
+
+  .second-page-title{
+    top: 70%;
+  }
+
+  .stripe-chocolate{
+    top: 120%;
+  }
+
+  .stripe-kissed{
+    top: 180%;
+  }
+
+  .solid-line2 {
+    top: 210%;
+  }
+
+  .third-page-title{
+    top: 215%;
+    left: 35%;
+  }
+
+  .third-page-description{
+    top: 230%;
+  }
+}
+
+
+@media only screen and (min-width: 860px) and (max-width: 1000px) {
+
+
+  .message-container
+  {
+    left: 52.5%;
+    width: 186;
+  }
+  .Image-Title{
+    top: 40%;
+    left: 51.55%;
+  }
+
+  .solid-line {
+      top: 91%;
+    }
+  .image{
+      width: 115%; /* Adjust the width of the box */
+      height: 90%;
+      top: 48%;
+  }
+
+  .second-page-title{
+    top: 105%;
+    left: 51%;
+  }
+
+  .stripe-chocolate{
+    top: 146%;
+    left: 51%;
+  }
+
+  .stripe-kissed{
+    top: 210%;
+    left: 51%;
+  }
+
+  .solid-line2 {
+    top: 244%;
+  }
+
+  .third-page-title{
+    top: 250%;
+    left: 38%;
+  }
+
+  .third-page-description{
+    top: 268%;
+    left: 0%;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1073px) {
+
+
+  .message-container
+  {
+    left: 52.5%;
+    width: 186;
+  }
+  .Image-Title{
+    top: 40%;
+    left: 51.55%;
+  }
+
+  .solid-line {
+      top: 91%;
+    }
+  .image{
+    width: 115%; /* Adjust the width of the box */
+    height: 90%;
+    top: 48%;
+  }
+
+  .second-page-title{
+    top: 105%;
+    left: 51%;
+  }
+
+  .stripe-chocolate{
+    top: 146%;
+    left: 51%;
+  }
+
+  .stripe-kissed{
+    top: 210%;
+    left: 51%;
+  }
+
+  .solid-line2 {
+    top: 244%;
+  }
+
+  .third-page-title{
+    top: 250%;
+    left: 39%;
+  }
+
+  .third-page-description{
+    top: 268%;
+    left: 0%;
+  }
+}
+
+@media only screen and (min-width: 1074px) and (max-width: 1514px) {
+
+
+  .message-container
+  {
+    left: 51.5%;
+  }
+  .Image-Title{
+    top: 40%;
+    left: 51.55%;
+  }
+
+  .solid-line {
+      top: 91%;
+      right: -6.5%;
+    }
+  .image{
+      width: 112%; /* Adjust the width of the box */
+      height: 90%;
+      top: 48%;
+      left: 50.5%;
+  }
+
+  .second-page-title{
+    top: 105%;
+    left: 51%;
+  }
+
+  .stripe-chocolate{
+    top: 146%;
+    left: 51%;
+  }
+
+  .stripe-kissed{
+    top: 210%;
+    left: 51%;
+  }
+
+  .solid-line2 {
+    top: 244%;
+    right: -6.5%;
+  }
+
+  .third-page-title{
+    top: 250%;
+    left: 41%;
+  }
+
+  .third-page-description{
+    top: 268%;
+    left: 0%;
+  }
+}
+
+@media only screen and (min-width: 1515px) and (max-width: 1595px) {
+
+
+  .message-container
+  {
+    left: 51.5%;
+    top: 1.4%;
+  }
+  .Image-Title{
+    top: 40%;
+    left: 51.55%;
+  }
+
+  .solid-line {
+      top: 92%;
+      right: -6.5%;
+    }
+  .image{
+      width: 112%; /* Adjust the width of the box */
+      height: 90%;
+      top: 47.85%;
+      left: 50.5%;
+  }
+
+  .second-page-title{
+    top: 105%;
+    left: 51%;
+  }
+
+  .stripe-chocolate{
+    top: 146%;
+    left: 51%;
+  }
+
+  .stripe-kissed{
+    top: 210%;
+    left: 51%;
+  }
+
+  .solid-line2 {
+    top: 244%;
+    right: -6.5%;
+  }
+
+  .third-page-title{
+    top: 250%;
+    left: 41%;
+  }
+
+  .third-page-description{
+    top: 268%;
+    left: 0%;
+  }
+}
+
+
+
+@media only screen and (min-width: 1596px) and (max-width: 2500px) {
+
+
+  .message-container
+  {
+    left: 51.5%;
+    height: 2.95%;
+  }
+  .Image-Title{
+    top: 40%;
+    left: 51.55%;
+  }
+
+  .solid-line {
+      top: 92%;
+      right: -6.5%;
+    }
+  .image{
+      width: 112%; /* Adjust the width of the box */
+      height: 90%;
+      top: 47.85%;
+      left: 50.5%;
+  }
+
+  .second-page-title{
+    top: 105%;
+    left: 51%;
+  }
+
+  .stripe-chocolate{
+    top: 146%;
+    left: 51%;
+  }
+
+  .stripe-kissed{
+    top: 210%;
+    left: 51%;
+  }
+
+  .solid-line2 {
+    top: 244%;
+    right: -6.5%;
+  }
+
+  .third-page-title{
+    top: 250%;
+    left: 41%;
+  }
+
+  .third-page-description{
+    top: 268%;
+    left: 0%;
+  }
+}
+
+
